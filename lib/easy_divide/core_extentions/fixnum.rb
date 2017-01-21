@@ -3,7 +3,7 @@ class Fixnum
     EasyDivide::Ratio.curculate(self, num)
   end
 
-  def percent(num)
+  def percent(*num)
     EasyDivide::Percent.curculate(self, num)
   end
 

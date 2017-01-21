@@ -1,10 +1,14 @@
 class Float
-  def to_act
-    (self*100).to_i
+  def to_act(num = 0)
+   (self*100).round(num)
   end
 
-  def to_act(num)
-   (self*100).to_i.round(num)
+  def ratio(*num)
+    EasyDivide::Ratio.curculate(self, num)
+  end
+
+  def percent(*num)
+    EasyDivide::Percent.curculate(self, num)
   end
 
   def with_sign
