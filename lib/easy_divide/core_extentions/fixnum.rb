@@ -1,10 +1,10 @@
 class Fixnum
   def ratio(*num)
-    EasyDivide::Ratio.curculate(self, num)
+    EasyDivide::Ratio.calculate(self, num)
   end
 
   def percent(*num)
-    EasyDivide::Percent.curculate(self, num)
+    EasyDivide::Percent.calculate(self, num)
   end
 
   def with_sign
