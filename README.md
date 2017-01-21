@@ -1,6 +1,5 @@
 # easy_divide
-
-easy
+Easy_divide provides an easy way for those who calculate percent, rates, etc.
 
 # install
 Add this line to your application's Gemfile:
@@ -20,7 +19,7 @@ Or install it yourself as:
 # Usage
 
 .ratio method displays the percentage of how far the number behind the previous one changed
-    100.ratio(50) #=> 2.0
+100.ratio(50) #=> 2.0
     123.9.ratio(34.89) #=> 3.55116079105761
 
 .percent method displays how much of the total number is occupied
