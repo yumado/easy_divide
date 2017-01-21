@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'warizan/version'
+require 'easy_divide/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "warizan"
-  spec.version       = Warizan::VERSION
+  spec.name          = "easy_divide"
+  spec.version       = EasyDivide::VERSION
   spec.authors       = ["Yuma"]
   spec.email         = ["yuma@sparcc.co"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{Write a short summary, because Rubygems requires one.}
+  spec.description   = %q{Write a longer description or delete this line.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
