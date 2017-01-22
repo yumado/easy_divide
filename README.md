@@ -20,24 +20,30 @@ Or install it yourself as:
 
 .ratio method displays the percentage of how far the number behind the previous one changed
 100.ratio(50) #=> 2.0
-    123.9.ratio(34.89) #=> 3.55116079105761
+
+    $ 123.9.ratio(34.89) #=> 3.55116079105761
 
 .percent method displays how much of the total number is occupied
-    100.percent(50) #=> 0.6666666666666666
-    123.9.percent(34.89) #=> 0.7802758360098242
+
+    $ 100.percent(50) #=> 0.6666666666666666
+    $ 123.9.percent(34.89) #=> 0.7802758360098242
 
 both methods are also avaibale by multimple numbers
-    100.ratio(50, 12) #=> 1.6129032258064515
-    123.9.percent(34.89, 1.56) #=> 0.7726847521047707
+
+    $ 100.ratio(50, 12) #=> 1.6129032258064515
+    $ 123.9.percent(34.89, 1.56) #=> 0.7726847521047707
 
 .to_act method displays a real number of 100 fractions
-    100.percent(50, 12).to_act #=> 161
+
+    $ 100.percent(50, 12).to_act #=> 161
 
 if you set argument, it displays the decimal point
-    100.percent(50, 12).to_act(2) => 161.29
+
+    $ 100.percent(50, 12).to_act(2) => 161.29
 
 .with_sign method add "%" string
-    100.percent(50, 12).to_act(2).with_sign #=> "61.73%"
+
+    $ 100.percent(50, 12).to_act(2).with_sign #=> "61.73%"
 
 # Development
 
