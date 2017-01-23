@@ -7,11 +7,11 @@ Gem::Specification.new do |spec|
   spec.name          = "easy_divide"
   spec.version       = EasyDivide::VERSION
   spec.authors       = ["Yuma"]
-  spec.email         = ["yuma@sparcc.co"]
+  spec.email         = ["endoyuma.world@gmail.com"]
 
-  spec.summary       = %q{Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{}
+  spec.description   = %q{onger description or delete this line.}
+  spec.homepage      = "https://github.com/yumae/easy_divide"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
