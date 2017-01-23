@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Yuma"]
   spec.email         = ["endoyuma.world@gmail.com"]
 
-  spec.summary       = %q{You can calculate the percentage with a simple method}
-  spec.description   = %q{It can be used for both Float and Integer, and sign can be attached easily}
+  spec.summary       = %q{You can calculate/display the percentage with a simple method}
+  spec.description   = %q{You can calculate/display the percentage with a simple method}
   spec.homepage      = "https://github.com/yumado/easy_divide"
   spec.license       = "MIT"
 
