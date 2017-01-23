@@ -1,5 +1,5 @@
 # easy_divide
-Easy_divide provides an easy way for those who calculate percent, rates, etc.
+You can calculate the percentage with a simple method
 
 # install
 Add this line to your application's Gemfile:
